@@ -1,0 +1,44 @@
+[ INFO] 2017-05-23 11:06:42 Connection established..jdbc:oracle:thin:@//icdupgcmsodb1-ca.pearsontc.com:1521/usparc1_app_fme_pref
+[ INFO] 2017-05-23 11:06:42 Found the Migration set with 132651946Data will process 
+[ INFO] 2017-05-23 11:06:42 Data processing  started..
+[ INFO] 2017-05-23 11:07:20 2291 Entries found in the data base for NA_School_Curriculum_Maths_High_School_Maths_2015_CC_Docs_delta
+[ INFO] 2017-05-23 11:07:20 Writing to the excel...
+[ INFO] 2017-05-23 11:07:21 Details retrived successfully.Please check in 132651946_Details.csv
+[ INFO] 2017-05-23 11:25:24 FME Utility Started to find the details for 132651946
+[ INFO] 2017-05-23 11:25:24 DB Urljdbc:oracle:thin:@//icdupgcmsodb1-ca.pearsontc.com:1521/usparc1_app_fme_pref
+[ INFO] 2017-05-23 11:25:27 Found the Migration set with 132651946Data will process 
+[ INFO] 2017-05-23 11:25:27 Data processing  started..
+[ INFO] 2017-05-23 11:26:05 2291 Entries found in the data base for NA_School_Curriculum_Maths_High_School_Maths_2015_CC_Docs_delta
+[ INFO] 2017-05-23 11:26:05 Writing to the excel...
+[ INFO] 2017-05-23 11:26:05 Details retrived successfully.Please check in 132651946_Details.csv
+[ INFO] 2017-05-23 11:28:22 FME Utility Started to find the details for 132651946
+[ INFO] 2017-05-23 11:28:22 DB Urljdbc:oracle:thin:@//icdupgcmsodb1-ca.pearsontc.com:1521/usparc1_app_fme_pref
+[ INFO] 2017-05-23 11:28:25 Query: select mig.Name as MigrationSet_Name, sos.NAME as MigraionSet_Status, so.ID_IN_SOURCE_SYSTEM, so.ID_IN_TARGET_SYSTEM, so.SCANNED_DATE, so.IMPORTED_DATE, mc_util.get_source_attributes(so.source_attributes, 'dctm_obj_link'), mc_util.get_source_attributes(so.source_attributes, 'object_name'), mc_util.get_source_attributes(so.source_attributes, 'owner_name'), mc_util.get_source_attributes(so.source_attributes, 'prsn_title'), mc_util.get_target_attributes(so.target_attributes, 'cm:name'), mc_util.get_target_attributes(so.target_attributes, 'folderpath') FROM SOURCE_OBJECTS so inner join SOURCE_OBJECT_STATUSES sos on (so.STATUS_ID = sos.ID) inner join MIGSETS mig on (so.MIGSET_ID = mig.ID) WHERE so.MIGSET_ID=132651946
+[ INFO] 2017-05-23 11:28:25 Found the Migration set with 132651946Data will process 
+[ INFO] 2017-05-23 11:28:25 Data processing  started..
+[ INFO] 2017-05-23 11:29:03 2291 Entries found in the data base for NA_School_Curriculum_Maths_High_School_Maths_2015_CC_Docs_delta
+[ INFO] 2017-05-23 11:29:04 Writing to the excel...
+[ INFO] 2017-05-23 11:29:04 Details retrived successfully.Please check in 132651946_Details.csv
+[ INFO] 2017-05-23 11:32:02 FME Utility Started to find the details for 132651946
+[ INFO] 2017-05-23 11:32:02 DB Urljdbc:oracle:thin:@//icdupgcmsodb1-ca.pearsontc.com:1521/usparc1_app_fme_pref
+[ INFO] 2017-05-23 11:32:48 FME Utility Started to find the details for 1326519461
+[ INFO] 2017-05-23 11:32:48 DB Urljdbc:oracle:thin:@//icdupgcmsodb1-ca.pearsontc.com:1521/usparc1_app_fme_pref
+[ INFO] 2017-05-23 11:32:51 Query: select mig.Name as MigrationSet_Name, sos.NAME as MigraionSet_Status, so.ID_IN_SOURCE_SYSTEM, so.ID_IN_TARGET_SYSTEM, so.SCANNED_DATE, so.IMPORTED_DATE, mc_util.get_source_attributes(so.source_attributes, 'dctm_obj_link'), mc_util.get_source_attributes(so.source_attributes, 'object_name'), mc_util.get_source_attributes(so.source_attributes, 'owner_name'), mc_util.get_source_attributes(so.source_attributes, 'prsn_title'), mc_util.get_target_attributes(so.target_attributes, 'cm:name'), mc_util.get_target_attributes(so.target_attributes, 'folderpath') FROM SOURCE_OBJECTS so inner join SOURCE_OBJECT_STATUSES sos on (so.STATUS_ID = sos.ID) inner join MIGSETS mig on (so.MIGSET_ID = mig.ID) WHERE so.MIGSET_ID=1326519461
+[ INFO] 2017-05-23 11:32:51 Found the Migration set with 1326519461Data will process 
+[ INFO] 2017-05-23 11:32:51 Data processing  started..
+[ INFO] 2017-05-23 11:32:51 0 Entries found in the data base for null
+[ INFO] 2017-05-23 11:32:51 Writing to the excel...
+[ INFO] 2017-05-23 11:32:51 Details retrived successfully.Please check in 1326519461_Details.csv
+[ INFO] 2017-05-23 11:35:22 FME Utility Started to find the details for 1326519461
+[ INFO] 2017-05-23 11:35:22 DB Urljdbc:oracle:thin:@//icdupgcmsodb1-ca.pearsontc.com:1521/usparc1_app_fme_pref
+[ INFO] 2017-05-23 11:35:25 Query: select mig.Name as MigrationSet_Name, sos.NAME as MigraionSet_Status, so.ID_IN_SOURCE_SYSTEM, so.ID_IN_TARGET_SYSTEM, so.SCANNED_DATE, so.IMPORTED_DATE, mc_util.get_source_attributes(so.source_attributes, 'dctm_obj_link'), mc_util.get_source_attributes(so.source_attributes, 'object_name'), mc_util.get_source_attributes(so.source_attributes, 'owner_name'), mc_util.get_source_attributes(so.source_attributes, 'prsn_title'), mc_util.get_target_attributes(so.target_attributes, 'cm:name'), mc_util.get_target_attributes(so.target_attributes, 'folderpath') FROM SOURCE_OBJECTS so inner join SOURCE_OBJECT_STATUSES sos on (so.STATUS_ID = sos.ID) inner join MIGSETS mig on (so.MIGSET_ID = mig.ID) WHERE so.MIGSET_ID=1326519461
+[ INFO] 2017-05-23 11:35:25 Found the Migration set with 1326519461Data will process 
+[ INFO] 2017-05-23 11:35:25 Data processing  started..
+[ INFO] 2017-05-23 11:35:25 0 Entries found in the data base for null
+[ INFO] 2017-05-23 11:35:25 Writing to the excel...
+[ INFO] 2017-05-23 11:35:25 Details retrived successfully.Please check in 1326519461_Details.csv
+[ INFO] 2017-05-23 11:36:21 FME Utility Started to find the details for 1326519461
+[ INFO] 2017-05-23 11:36:21 DB Urljdbc:oracle:thin:@//icdupgcmsodb1-ca.pearsontc.com:1521/usparc1_app_fme_pref
+[ INFO] 2017-05-23 11:36:23 Query: select mig.Name as MigrationSet_Name, sos.NAME as MigraionSet_Status, so.ID_IN_SOURCE_SYSTEM, so.ID_IN_TARGET_SYSTEM, so.SCANNED_DATE, so.IMPORTED_DATE, mc_util.get_source_attributes(so.source_attributes, 'dctm_obj_link'), mc_util.get_source_attributes(so.source_attributes, 'object_name'), mc_util.get_source_attributes(so.source_attributes, 'owner_name'), mc_util.get_source_attributes(so.source_attributes, 'prsn_title'), mc_util.get_target_attributes(so.target_attributes, 'cm:name'), mc_util.get_target_attributes(so.target_attributes, 'folderpath') FROM SOURCE_OBJECTS so inner join SOURCE_OBJECT_STATUSES sos on (so.STATUS_ID = sos.ID) inner join MIGSETS mig on (so.MIGSET_ID = mig.ID) WHERE so.MIGSET_ID=1326519461
+[ INFO] 2017-05-23 11:36:24 Not able to find the data 1326519461
+[ INFO] 2017-05-23 11:36:24 Please check Properties
